@@ -28,11 +28,19 @@ li {
   list-style: none;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  background-color: #1A1A1A;;
 }
 
 .wrapper {
@@ -50,7 +58,7 @@ body {
 }
 
 .container {
-  max-width: 1470px;
+  max-width: 1070px;
   margin: 0 auto;
   padding: 0 15px;
 }
